@@ -1,0 +1,269 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.bg{
+    background-image: url(../images/caffee.jpg);
+    background-attachment:fixed;
+    height:600px;
+}
+#home{
+    height:100vh;
+    width:100%;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#home .navbar{
+    width:100%;
+    height:100px;
+    background-color: rgba(255, 255, 255, 0.149);
+}
+#home .navbar-logo{
+    width:20%;
+float:left;
+}
+#home .navbar-logo img{
+    width:40%;
+
+}
+
+#home .navbar-links{
+    width:50%;
+    float:left;
+
+}
+#home .navbar-links li{
+    display: inline-block;
+    padding-top: 40px;
+
+}
+#home .navbar-links a{
+        text-align: center;
+        text-decoration: none;
+        margin:20px;
+        font-size: 25px;
+        color:white;
+}
+
+.login i{
+    font-size: 30px;
+    width:10%;
+    margin-top: 20px;
+    margin-left: 100px;
+    text-align: right;
+    
+}
+ #home .content{
+    text-align: center;
+    margin: 50px;
+    color:white;
+}
+#home .content h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#home .content p{
+    font-size: 40px;
+font-family: 'Times New Roman', Times, serif;
+margin:10px;
+}
+#home .content button{
+    border:none;
+    padding:15px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#home .content .btn1:hover{
+    background-color: orange;
+
+}
+#home .content .btn1{
+      background-color: burlywood;
+}
+.btn2:hover{
+background-color:darkred;
+color:bisque;
+}
+#about {
+    width:100%;
+    overflow: hidden;
+    margin-top:50px;
+}
+#about .about-image{
+    width:40%;
+    float:left;
+}
+#about .about-image img{
+    width:80%;
+}
+#about .about-description {
+    width:60%;
+    float:left;
+   text-align: center;
+   padding-top: 80px;
+}
+#about .about-description h2{
+    padding-top:20px;
+    font-size: 50px;
+    font-weight: 300;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgba(164, 120, 7, 0.918);
+}
+#about .about-description h3{
+      font-size: 35px;
+      padding: 20px;
+}
+#about .about-description p{
+    padding:50px;
+    line-height:30px;
+    font-size: 20px;
+    
+}
+#about button{
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    border:2px solid rgba(164, 120, 7, 0.918);
+    color:rgba(164, 120, 7, 0.918);
+}
+#about .button3:hover{
+    background-color:rgb(204, 151, 70);
+    color:white;
+}
+#menu{
+  
+    width:100%;
+    overflow: hidden;
+}
+.header{
+    width:10%;
+    margin:30px auto;
+    background-color: rgba(164, 120, 7, 0.2);
+    
+}
+#menu .header h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:darkred;
+    border-bottom: 5px solid darkred;
+    border-left: 5px solid darkred; 
+    border-radius: 5px;
+   
+}
+
+#menu .item{
+    width:25%;
+    float:left;
+    text-align: center;
+    margin-top: 30px;
+  
+}
+#menu .item img{
+    width:200px;
+    height:200px;
+   border-radius: 50%;
+   
+
+}
+#menu .item h4{
+    font-size: 25px;
+    font-weight: 300;
+    color:darkgoldenrod;
+}
+#menu .line{
+    width:35%;
+    height:1px;
+      border-bottom: 2px solid darkred;
+      margin-left: 130px;
+      margin-bottom:30px;
+      margin-top:10px;
+
+}
+#menu p{
+    padding:10px 30px 30px 30px;
+}
+#blog{
+    width:100%;
+    margin-top: 70px;
+}
+#blog .blog-header{
+    width:20%;
+    margin:30px auto;
+    background-color: rgba(164, 120, 7, 0.2);
+}
+#blog h4{
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:darkred;
+    border-bottom: 5px solid darkred;
+    border-left: 5px solid darkred; 
+    border-radius: 5px;
+   
+}
+.blog-cards{
+    width:100%;
+    overflow:hidden;
+    
+}
+.blog-cards .card {
+    width:24.5%;
+    float:left;
+    text-align:center;
+    margin-top:100px;
+    background-color: burlywood;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+  
+   
+    
+}
+.blog-cards .card img{
+    /* border-radius: 50%; */
+    width:100%;
+    height:200px;
+}
+.blog-cards .card h5{
+    color:darkred;
+    font-size: 20px;
+}
+.blog-cards .card p{
+    font-size: 20px;
+    padding:18px;
+}
+.blog-cards .card h6{
+    font-size: 18px;
+    color:rgb(1, 32, 43);
+}
+
+#contact{
+    background-color: bisque;
+    width:100%;
+    text-align: center;
+   
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+#contact p{
+ color:darkred;
+  font-size: 30px;
+}
+#contact img{
+    text-align: center;
+    width:30%;
+    margin-left: 150px;;
+}
+
+#contact .icons{
+margin:20px;
+font-size: 20px;
+ margin:20px auto;
+
+
+}
+.icons i{
+    margin:20px;
+}
